@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700;800&family=Nunito+Sans:wght@300;400&family=Poppins:wght@400;500&family=Titillium+Web:wght@600&display=swap');
+
+#signUp{
+    display: none;
+}
+
+#welcome{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#signIn{
+    display: none;
+}
+h1{    
+    font-family: "Titillium Web", sans-serif;    font-size:40px ;
+}
+p{
+    color: white;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline !important; 
+}
+.bg-custom{
+    background-color: #24353F !important;
+}
+.custom-shadow{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.custom-nav{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.secondary-color{
+    color: #17A2B8;
+}
+input{
+    background-color: transparent !important;    
+    border: #CED4DA 1px solid!important;
+    color: white !important;
+}
+input::placeholder{
+    color: #B6B6A6 !important;
+}
+#signIn button{
+    width: 100% ;
+    border: #17A2B8 1px solid ;
+    border-radius: 5px;
+    color: #17A2B8 ;
+    font-weight: 500;
+    padding: 5px 10px ;
+    transition: all 0.5s;
+    background-color: transparent;
+}
+#signIn button:hover{
+    background-color: #17A2B8 ;
+    color: white ;
+}
+#signUp button{
+    width: 100% ;
+    border: #17A2B8 1px solid ;
+    border-radius: 5px;
+    color: #17A2B8 ;
+    font-weight: 500;
+    padding: 5px 10px ;
+    transition: all 0.5s;
+    background-color: transparent;
+}
+#signUp button:hover{
+    background-color: #17A2B8 ;
+    color: white ;
+}
+
+#welcome .navbar a{
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 400;
+    margin: auto 20px;
+}
+#logoutBtn{
+    color: #CED4DA;
+}
+#logoutBtn:hover{
+    color: white;
+}
